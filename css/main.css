@@ -1119,7 +1119,7 @@ header .logo a {
  * menu toggle - (_layout.css)
  * ------------------------------------------------------------------- 
  */
-.menu-toggle {
+ .menu-toggle {
 	float: left;
 	width: 40px;
 	height: 40px;
@@ -1185,7 +1185,7 @@ header .logo a {
 
 /* is clicked */
 .menu-toggle.is-clicked span {
-	background-color: rgba(255, 0, 119, 0);
+	background-color: rgba(221, 14, 110, 0);
 }
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
 	background-color: #cc19cc;
@@ -1206,7 +1206,7 @@ header .logo a {
 	-webkit-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
-}
+} 
 
 /* navigation panel */
 #main-nav-wrap {
@@ -1286,7 +1286,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/what-is-web-development-1024x576.webp) no-repeat center bottom;
+	background: #151515 url(../images/picDev.avif) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
