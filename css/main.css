@@ -1117,9 +1117,16 @@ header {
     box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.5);
     z-index: -1;
 }
+.logo .test {
+	color: #fff;
+	width:500px ;
 
+	font-size: 24px;
+	font-family: "lora-regular", serif;
+	
+}
 /* Logo Styling */
-.logo a {
+/* .logo a {
     display: flex;
     align-items: center;
     font-family: "lora-regular", serif;
@@ -1127,7 +1134,8 @@ header {
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
-}
+	
+} */
 
 /* Navigation Menu Styling */
 .main-navigation {
@@ -1564,7 +1572,7 @@ header {
 	display: block;
 	width: 1px;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.1);
+	background: rgba(240, 6, 6, 0.1);
 	position: absolute;
 	left: 35%;
 	top: 0;
